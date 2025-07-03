@@ -2,9 +2,13 @@
 
 This repository presents a theoretical and simulation-based study on the design and performance of a **Chopper Preamplifier (CP)** for **Proton Sound Detectors (ProSDs)**, as part of a Bachelor's thesis in Physics at the University of Milano-Bicocca.
 
+![image](https://github.com/user-attachments/assets/e14a88e5-5413-467f-9119-3493431df71b)
+
 ## Project Overview
 
 Proton Sound Detectors are promising tools in **hadron therapy**, leveraging the ionoacoustic effect to localize the **Bragg Peak** with high precision. However, their effectiveness is limited by the inherently low Signal-to-Noise Ratio (SNR), especially due to dominant **1/f (flicker) noise** in the low-frequency range.
+
+![image](https://github.com/user-attachments/assets/53917f07-a1f5-430d-89ad-f3c7075f22ab)
 
 This work explores a **Chopper Technique (CT)**-based solution, theoretically modeled and implemented in MATLAB, to mitigate flicker noise and enhance overall detection accuracy.
 
@@ -31,3 +35,5 @@ This work explores a **Chopper Technique (CT)**-based solution, theoretically mo
 | Without CT       | 1.25 mVRMS             |
 
 This corresponds to a theoretical dose reduction factor of ~16 in clinical terms, assuming averaging is replaced with chopper-based processing.
+
+![image](https://github.com/user-attachments/assets/7f6dcdac-b799-42ae-9fc1-8073838b3373)
